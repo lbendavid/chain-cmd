@@ -1,0 +1,89 @@
+<job pwd>
+Command pwd
+</job>
+<job echo_10s>
+Command echo_10s
+</job>
+<job echo_20s>
+Command echo 20
+</job>
+<job ls_error>
+Command ls /totor
+</job>
+<job echo_2mn>
+com echo 30
+</job>
+<job df_giga>
+com df -BG
+</job>
+<job du_home>
+com du -ks /home/laurent
+</job>
+<job apache_status>
+com /etc/init.d/apache2 status
+</job>
+<job echo_10s>
+Command echo 10
+</job>
+<job echo_15s>
+com echo 15
+</job>
+<job echo2_20s>
+com echo 20
+</job>
+<job find_home>
+com find /home/laurent -name 'lbd' -type d
+</job>
+<job test_steps>
+priority 1
+<step 1_echo_15s>
+Command echo 15s
+</step>
+<step 2_echo_15s>
+Command echo 15s
+</step>
+<step home>
+Command echo $HOME
+</step>
+<step step_error>
+Command ls /error
+</step>
+</job>
+<job>
+command pwd
+</job>
+ls /home
+<job df>
+command df
+</job>
+<job netstat>
+command netstat -I
+</job>
+<job interface>
+command netstat -i
+</job>
+ifconfig -a
+<job who>
+command who -r
+</job>
+<job route>
+command sleep 5
+</job>
+<job env>
+command env
+</job>
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5
+sleep 5

@@ -1,0 +1,4 @@
+- passage au format YAML
+- passage en module court
+- passage en python3
+- utilisation des modules standars python : logging, args, ...
